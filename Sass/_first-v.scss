@@ -1,19 +1,17 @@
-#first-v{
-
-    // background-size: cover;
-    .first-v__wrap{
-        display: flex;
-        h1{
-            width: 326px;
-            font-size: 1.8rem;
-            margin-left: 160px;
-        }
-        .catch{
-            width: 390px;
-            margin-top: 48px;
-            margin-left: 127px;
-            font-style: italic;
-        }
+.first-v__wrap{
+    // text-align: center;
+    margin-top: 190px;
+    h1{
+        // width: 326px;
+        font-size: 36px;
+        margin-left: 160px;
+    }
+    .catch{
+        // width: 390px;
+        margin-top: 48px;
+        margin-left: 107px;
+        font-size: 50px;
+        font-style: italic;
     }
 }
     

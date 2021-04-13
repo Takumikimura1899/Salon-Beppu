@@ -104,22 +104,23 @@ HTML {
   height: 800px;
   background-image: url(/img/img7.png);
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: 60% 100%;
   background-position: right top; }
 
 #container-2 {
   height: 407px;
-  background-color: grey; }
+  background-color: grey;
+  text-align: center; }
 
 header {
-  width: 100%;
   display: flex;
   justify-content: start;
+  padding-top: 68px;
+  padding-left: 77px;
   z-index: 20; }
   header .header-logo {
     font-size: 38px; }
   header nav {
-    width: 40%;
     font-size: 18px;
     margin-left: 20px;
     margin-top: 10px; }
@@ -129,16 +130,22 @@ header {
       align-items: center;
       list-style: none; }
 
-#first-v .first-v__wrap {
-  display: flex; }
-  #first-v .first-v__wrap h1 {
-    width: 326px;
-    font-size: 1.8rem;
+.first-v__wrap {
+  margin-top: 190px; }
+  .first-v__wrap h1 {
+    font-size: 36px;
     margin-left: 160px; }
-  #first-v .first-v__wrap .catch {
-    width: 390px;
+  .first-v__wrap .catch {
     margin-top: 48px;
-    margin-left: 127px;
+    margin-left: 107px;
+    font-size: 50px;
     font-style: italic; }
+
+.concept {
+  padding-top: 100px; }
+  .concept .concept-wrap {
+    display: flex;
+    justify-content: center;
+    height: 413px; }
 
 /*# sourceMappingURL=main.css.map */
