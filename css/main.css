@@ -109,8 +109,11 @@ HTML {
 
 #container-2 {
   height: 407px;
-  background-color: grey;
-  text-align: center; }
+  background-color: grey; }
+
+#container-3 {
+  height: 560px;
+  background-color: green; }
 
 header {
   display: flex;
@@ -142,10 +145,18 @@ header {
     font-style: italic; }
 
 .concept {
-  padding-top: 100px; }
+  padding-top: 256px; }
+  .concept .title {
+    font-size: 20px; }
   .concept .concept-wrap {
     display: flex;
-    justify-content: center;
+    padding-left: 5%;
+    text-align: center;
     height: 413px; }
+    .concept .concept-wrap .img-2 {
+      width: 650px; }
+    .concept .concept-wrap .img-3 {
+      padding-left: 11px;
+      width: 391px; }
 
 /*# sourceMappingURL=main.css.map */
