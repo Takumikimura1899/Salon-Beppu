@@ -1,14 +1,14 @@
 
 .concept{
     padding-top: 256px;
-    // width: 95%;
+    padding-left: 5%;
     .title{
         font-size: 20px;
     }
     .concept-wrap{
         // width: 100%;
         display: flex;
-        padding-left: 5%;
+        // padding-left: 5%;
         text-align: center;
         height: 413px;
         .img-2{
@@ -22,4 +22,21 @@
             width: 391px;
         }
     }
+}
+
+.concept-txt{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 389px;
+    .concept-txt__theme{
+        // padding-bottom: 129px;
+        font-size: 40px
+    }
+    .concept-txt__txt{
+        // padding-bottom: 60px;
+        margin-left: 57px;
+    }
+
 }
