@@ -1,0 +1,16 @@
+.menu-wrap{
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    .menu-content{
+        // 253/1282
+        display: inline-block;
+        width: 40%;
+        .menu-content__title{
+            margin-top: 37px;
+            font-size: 30px;
+
+        }
+    }
+}
