@@ -1,45 +1,32 @@
 #access{
-    height: 757px;
-    width: 1260px;
+    // 見やすいよう
     background-color: #A193861F;
-    padding-top: 260px;
+    // position: relative;
+    // display: flex;
+    padding-top: 261px;
+    padding-bottom: 70px;
 }
-.access-title{
-    margin-left: 107px;
-}
-.access-inner{
-    background-color: #D0C5BA;
-    height: 396px;
-    padding-left: 107px;
-}
-
 .access-wrap{
+    background-color: #D0C5BA;
+    position: relative;
+}
+// .access-title{
+// }
+.address-inner{
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    align-items: center;
 }
-
-.adress{
-    padding-top: 101px;
+.address{
 }
-.adress-title{
-    font-size: 24px;
-    color: #00000038;
-}
-
-.adress-txt ul{
-    padding-top: 30px;
-    font-size: 16px;
-    color: #fff;
-    li{
-    margin-bottom: 24px;
-    }
-}
-
 .map{
-    width: 775px;
+    height: 400px;
     iframe{
-    height: 100%;
-    width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
     }
+    
 }
