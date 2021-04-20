@@ -9,11 +9,18 @@
 .menu-item{
     // 274/1060
     width: 26%;
+    padding-bottom: 6rem;
 }
 .menu-content{
-    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    p{
+        margin-top: 3.4rem;
+        font-size: 1.6rem;
+    }
     & p:nth-child(1){
         text-align: center;
+        font-size: 3rem;
     }
     & p:nth-child(3){
         text-align: right;

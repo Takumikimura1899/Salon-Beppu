@@ -4,7 +4,7 @@
     // position: relative;
     // display: flex;
     padding-top: 261px;
-    padding-bottom: 70px;
+    padding-bottom: 7rem;
 }
 .access-wrap{
     background-color: #D0C5BA;
@@ -13,15 +13,33 @@
 // .access-title{
 // }
 .address-inner{
-    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10.1rem;
+    padding-bottom: 10.3rem;
 }
 .address{
+    font-size: 1.6rem
 }
+.address-title{
+    color: #00000038;
+    font-size: 2.4rem;
+}
+.address-txt{
+    ul{
+        li{
+            color: #FFFFFF;
+            margin-top: 2rem;    
+        }
+    }
+}    
 .map{
-    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 77.5rem;
+    height: 100%;
     iframe{
         width: 100%;
         height: 100%;

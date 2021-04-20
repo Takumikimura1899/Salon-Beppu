@@ -101,51 +101,108 @@ HTML {
 
 .inner {
   width: 106rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 .title {
-  margin-bottom: 5px; }
-
-.bgc-gray {
-  background-color: #A1938689; }
-
-header {
-  width: 106rem;
+  color: #707070;
   display: flex;
   align-items: center;
-  position: relative;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  letter-spacing: 0.3em; }
+  .title::after {
+    content: "";
+    width: 100px;
+    border-top: 1px solid #000;
+    margin-left: 2rem; }
+
+.btn {
+  border: 1px solid #707070;
+  padding: 1rem 4rem;
+  font-size: 1.8em;
+  color: #707070; }
+
+header {
   position: absolute;
   z-index: 20; }
 
-.header-logo {
-  font-size: 20px; }
+.header-inner {
+  padding-top: 70px;
+  padding-left: 70px;
+  display: flex;
+  align-items: center; }
 
-.header-nav ul {
-  display: flex; }
+.header-logo {
+  font-size: 3.8rem;
+  letter-spacing: 0.1em; }
+
+.header-nav {
+  color: #707070; }
+  .header-nav ul {
+    display: flex;
+    font-size: 1.8rem; }
+    .header-nav ul li {
+      margin-left: 2rem; }
 
 #first-v {
   display: flex;
   justify-content: space-between;
   width: 126rem;
   height: 800px; }
-  #first-v .first-v__theme {
-    margin-top: 200px; }
-  #first-v .first-v__img img {
+
+.first-v__theme {
+  margin-top: 300px;
+  width: 400px;
+  text-align: center; }
+
+.first-v__txt {
+  font-size: 30px; }
+
+.first-v__catch {
+  font-style: italic;
+  margin-top: 48px;
+  font-size: 38px; }
+
+.first-v__img {
+  position: absolute;
+  right: 0; }
+  .first-v__img img {
     width: 100%;
     height: 100%; }
 
-#concept {
-  padding-top: 200px; }
+.concept-item__wrap {
+  background-color: #A193861F; }
+
+.concept-item__inner {
+  top: 256px; }
 
 .concept-item {
+  width: 100%;
+  display: flex; }
+  .concept-item__img-2 {
+    padding-left: 10px; }
+    .concept-item__img-2 img {
+      width: 100%;
+      height: 100%; }
+
+.concept-theme__wrap {
+  background-color: #A1938689; }
+
+.concept-txt {
+  color: #FFFFFF;
+  width: 70%;
   display: flex;
-  width: 100%; }
-  .concept-item img {
-    width: 100%;
-    height: 100%; }
-  .concept-item img-2 {
-    width: 100%;
-    height: 100%; }
+  justify-content: space-between;
+  padding-top: 36rem;
+  padding-bottom: 64px; }
+  .concept-txt__theme {
+    font-size: 4rem;
+    margin-top: 2rem; }
+  .concept-txt__txt {
+    width: 42.2rem;
+    font-size: 1.6rem;
+    line-height: 1.6; }
 
 #menu {
   padding-top: 200px;
@@ -156,32 +213,54 @@ header {
   justify-content: space-between; }
 
 .menu-item {
-  width: 26%; }
+  width: 26%;
+  padding-bottom: 6rem; }
 
 .menu-content {
-  padding: 20px; }
+  width: 80%;
+  margin: 0 auto; }
+  .menu-content p {
+    margin-top: 3.4rem;
+    font-size: 1.6rem; }
   .menu-content p:nth-child(1) {
-    text-align: center; }
+    text-align: center;
+    font-size: 3rem; }
   .menu-content p:nth-child(3) {
     text-align: right; }
 
 #access {
   background-color: #A193861F;
   padding-top: 261px;
-  padding-bottom: 70px; }
+  padding-bottom: 7rem; }
 
 .access-wrap {
   background-color: #D0C5BA;
   position: relative; }
 
 .address-inner {
-  margin-bottom: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding-top: 10.1rem;
+  padding-bottom: 10.3rem; }
+
+.address {
+  font-size: 1.6rem; }
+
+.address-title {
+  color: #00000038;
+  font-size: 2.4rem; }
+
+.address-txt ul li {
+  color: #FFFFFF;
+  margin-top: 2rem; }
 
 .map {
-  height: 400px; }
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 77.5rem;
+  height: 100%; }
   .map iframe {
     width: 100%;
     height: 100%;
@@ -189,7 +268,8 @@ header {
 
 footer {
   background-color: #fff;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  margin-top: 17rem; }
 
 .footer-wrap {
   border-top: 1px solid #70707036;
@@ -200,5 +280,11 @@ footer {
 .footer-logo {
   display: flex;
   align-items: center; }
+  .footer-logo p {
+    color: #7070704D;
+    font-size: 3.2rem; }
+  .footer-logo i {
+    margin-left: 2rem;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,17 +1,34 @@
 HTML{
-    // background-color: #A193861F;
     font-size: 62.5%;
+}
+body{
+    // background-color: #fff;
 }
 .inner{
     width: 106rem;
     margin: 0 auto;
+    position: relative;
 }
 // h2{
 //     margin-left: 10rem;
 // }
 .title{
+    color: #707070;
+    display: flex;
+    align-items: center;
     margin-bottom: 5px;
+    font-size: 1.8rem;
+    letter-spacing: 0.3em;
+    &::after{
+        content: "";
+        width: 100px;
+        border-top: 1px solid #000;
+        margin-left: 2rem;
+    }
 }
-.bgc-gray{
-    background-color: #A1938689;
+.btn{
+    border: 1px solid #707070;
+    padding: 1rem 4rem;
+    font-size: 1.8em;
+    color: #707070;
 }

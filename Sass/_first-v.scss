@@ -3,14 +3,25 @@
     justify-content: space-between;
     width: 126rem;
     height: 800px;
-
+}
     .first-v__theme{
-        margin-top: 200px;
+        margin-top: 300px;
+        width: 400px;
+        text-align: center;
+    }
+    .first-v__txt{
+        font-size: 30px;
+    }
+    .first-v__catch{
+        font-style: italic;
+        margin-top: 48px;
+        font-size: 38px;
     }
     .first-v__img{
+        position: absolute;
+        right: 0;
         img{
             width: 100%;
             height: 100%;
         }
     }
-}
