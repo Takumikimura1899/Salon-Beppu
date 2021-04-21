@@ -5,6 +5,11 @@
 .menu-wrap{
     display: flex;
     justify-content: space-between;
+    
+    @include sp{
+        flex-direction:column;
+        align-items: center;
+    }
 }
 .menu-item{
     // 274/1060

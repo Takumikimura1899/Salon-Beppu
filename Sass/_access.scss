@@ -18,6 +18,9 @@
     align-items: center;
     padding-top: 10.1rem;
     padding-bottom: 10.3rem;
+    @include sp{
+        flex-direction: column;
+    }
 }
 .address{
     font-size: 1.6rem
