@@ -2,17 +2,24 @@ footer{
     width: 100%;
     background-color: #fff;
     padding-bottom: 60px;
-    margin-top: 17rem;
+    margin-top: 10rem;
 }
 .footer-wrap{
     border-top: 1px solid #70707036;
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
+    @include sp{
+        flex-direction: column-reverse;
+    }
 }
 .footer-logo{
     display: flex;
     align-items: center;
+    @include sp{
+        padding-top: 5rem;
+        justify-content: space-between;
+    }
     p{
         color: #7070704D;
         // font-size: 3.2rem;
