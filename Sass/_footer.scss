@@ -3,6 +3,9 @@ footer{
     background-color: #fff;
     padding-bottom: 60px;
     margin-top: 10rem;
+    @include sp{
+        padding-bottom: 3rem;
+    }
 }
 .footer-wrap{
     border-top: 1px solid #70707036;
@@ -16,7 +19,9 @@ footer{
 .footer-logo{
     display: flex;
     align-items: center;
+    font-size: 3rem;
     @include sp{
+        font-size: 2rem;
         padding-top: 5rem;
         justify-content: space-between;
     }
@@ -26,6 +31,9 @@ footer{
     }
     i{
         margin-left: 2rem;
+        @include sp{
+            margin-left: 1rem;
+        }
         // font-size: 2rem;
     }
 }

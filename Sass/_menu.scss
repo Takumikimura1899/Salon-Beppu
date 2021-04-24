@@ -1,5 +1,5 @@
 #menu{
-    padding-top: 200px;
+    padding-top: 20rem;
     background-color: #FFFFFF;
 }
 .menu-wrap{
@@ -22,12 +22,19 @@
 .menu-content{
     width: 80%;
     margin: 0 auto;
+    @include sp{
+        width: 100%;
+        padding-left: 1rem;
+    }
     p{
         margin-top: 3.4rem;
         font-size: 1.6rem;
     }
     & p:nth-child(1){
         text-align: center;
+        @include sp{
+            text-align: left;
+        }
         font-size: 3rem;
     }
     & p:nth-child(3){

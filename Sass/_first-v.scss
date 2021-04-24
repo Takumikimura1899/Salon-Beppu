@@ -1,39 +1,74 @@
 #first-v{
+    position: relative;
     display: flex;
     justify-content: space-between;
     // width: 126rem;
     // height: 100%;
     @include sp{
-        height: 60rem;
+        padding-top: 7rem;
+        height: 67rem;
     }
 }
 .first-v__wrap{
     // position: relative;
+    width: 100%;
     height: 80rem;
+    @include sp{
+        height: 60rem;
+    }
 }
-// .first-v__theme{
-    // padding-top: 300px;
-// }
+.first-v__theme{
+    // height: 80rem;
+    // width: 40rem;
+    margin-top: 30rem;
+    margin-left: 10rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    @include sp{
+        color:#ffffff;
+        text-shadow:  #000;
+        width: 100%;
+        margin-top: 20rem;
+        margin-left: 0;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
 .first-v__txt{
-    padding-top: 30rem;
-    padding-left: 3rem;
+    margin-left: 3rem;
     // font-size: 3rem;
+    @include sp{
+        margin-top: 3rem;
+    }
 }
 .first-v__catch{
     font-style: italic;
-    margin-top: 48px;
-    padding-bottom: 30rem;
-    // font-size: 38px;
+    font-size: 38px;
+    margin-top: 5rem;
 }
 .first-v__img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -10;
-    height: 80rem;
+    // @include pc{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -10;
+        height: 80rem;
+        width: 55%;
+    // }
+    // @include tab{
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     z-index: -10;
+    //     height: 80rem;
+    // }
+    
     // width: 55%;
 
     @include sp{
+        position: absolute;
+        top: 7rem;
         height: 60rem;
         width: 100%;
         
